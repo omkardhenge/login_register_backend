@@ -38,7 +38,7 @@ router.post('/login', async (req, res) => {
 
 //ping
 router.get('/ping', (req, res) => {
-    res.status(200).send('Server is alive!');
+    res.status(200).send("OK");
 });
 
 module.exports = router;
